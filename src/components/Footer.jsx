@@ -11,7 +11,7 @@ const Footer = ({ darkMode }) => {
           <div>
             <p className="text-sm font-medium py-2">Julian Peruzzi | DNI 39955389</p>
             <p className="text-sm mb-2">Página de Login - materia Desarrollo de Aplicativos 2024</p>
-            <p className="text-sm mb-3">Universidad Católica de Cuyo - San Juan Argentina </p>
+            <p className="text-sm mb-4">Universidad Católica de Cuyo - San Juan Argentina </p>
           </div>
           <div className='px-24 hidden md:block'>
             <p className="text-sm font-medium ">Contacto</p>
