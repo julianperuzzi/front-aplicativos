@@ -65,11 +65,16 @@ const Login = ({ darkMode }) => {
         {success && <div className="mb-4 text-green-600 text-sm">Ingreso exitoso</div>}
         <button
           type="submit"
-          className={`w-full py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white hover:scale-105 transition duration-100  ${darkMode ? 'bg-gray-700 hover:bg-gray-600 focus:ring-gray-500' : 'bg-indigo-600 hover:bg-indigo-700 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'}`}
+          className={`w-full py-2 px-4 my-2 rounded-md shadow-sm text-sm font-medium text-white hover:scale-105 transition duration-100  ${darkMode ? 'bg-indigo-700 hover:bg-gray-600 focus:ring-gray-500 focus:ring-2 focus:ring-offset-2' : 'bg-indigo-600 hover:bg-indigo-700 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'}`}
         >
           Login
         </button>
       </form>
+      <div className="mt-4 text-center">
+        <p className={`text-sm ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
+          Si no tienes usuario, <a href="#" className="text-blue-500 underline">regístrate</a>
+        </p>
+      </div>
     </div>
   );
 };
