@@ -62,7 +62,7 @@ const Login = ({ darkMode }) => {
           />
         </div>
         {error && <div className="mb-4 text-red-600 text-sm">{error}</div>}
-        {success && <div className="mb-4 text-green-600 text-sm">Ingreso exitoso</div>}
+        {success && <div className="mb-4 text-green-600 text-sm">Ingreso exitoso!</div>}
         <button
           type="submit"
           className={`w-full py-2 px-4 my-2 rounded-md shadow-sm text-sm font-medium text-white hover:scale-105 transition duration-100  ${darkMode ? 'bg-indigo-700 hover:bg-gray-600 focus:ring-gray-500 focus:ring-2 focus:ring-offset-2' : 'bg-indigo-600 hover:bg-indigo-700 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'}`}
