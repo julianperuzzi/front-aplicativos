@@ -34,7 +34,7 @@ const Login = ({ darkMode }) => {
   };
 
   return (
-    <div className={`p-8 rounded-xl shadow-xl w-full max-w-md border-2 border-gray-600 hover:scale-105 transition duration-700 ${darkMode ? 'bg-gray-800' : 'bg-gray-100'}`}>
+    <div className={`mx-4 p-8 rounded-xl shadow-xl w-full max-w-md border-2 border-gray-600 hover:scale-105 transition duration-700 ${darkMode ? 'bg-gray-800' : 'bg-gray-100'}`}>
       <h2 className={`text-2xl font-bold mb-6 text-center ${darkMode ? 'text-gray-300' : 'text-gray-800'}`}>Login de Usuario</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
