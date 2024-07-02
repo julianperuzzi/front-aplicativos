@@ -27,6 +27,8 @@ const Login = ({ darkMode }) => {
       } else {
         setSuccess(true);
         setError('');
+        console.log('Token de autenticación:', result.authorizationToken); // Mostrar el token en la consola
+
       }
     } catch (error) {
       setError('Error de red. Por favor, inténtalo de nuevo más tarde.');
