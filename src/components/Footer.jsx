@@ -7,7 +7,7 @@ const Footer = ({ darkMode }) => {
 
       <div className={`max-w-7xl mx-auto flex items-center justify-between ${darkMode ? 'text-gray-200' : 'text-gray-800'} `} >
         <div className="flex items-center  space-x-4">
-          <img className="h-16 w-16 mr-4" src={favicon} alt="Favicon" />
+          <img className="h-16 w-16 mx-4" src={favicon} alt="Favicon" />
           <div>
             <p className="text-sm font-medium py-2">Julian Peruzzi | DNI 39955389</p>
             <p className="text-sm mb-2">Página de Login - materia Desarrollo de Aplicativos 2024</p>
